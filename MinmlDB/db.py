@@ -1,5 +1,7 @@
 # Standard library imports
 import socket
+from handlers import *
+from commands import *
 
 HOST = 'localhost'
 PORT = '5555'
@@ -59,4 +61,4 @@ def main():
         connection.close()
 
 if __name__ == '__main__':
-    main()
+    main() 
